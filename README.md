@@ -39,7 +39,7 @@ Lab Assignment 6: Recursive Word Ladder
   A successful ladder will be produced from inputting "fish" as the first word, and "mast" as the ending word. This a yield the ladder:
   [fish, dish, dash, cash, case, care, card, cart, cast, mast]
 
-  An ladder will not be produced from an invalid input for either the starting or ending words. For example, if a word is used that is not listed in the dictionary like "amigo" the message "One or more input words is not in the dictionary. It is incumbent on the user to know what words are and are not in the dictionary before using the program.
+  A ladder will not be produced from an invalid input for either the starting or ending words. For example, if a word is used that is not listed in the dictionary like "amigo" the message "One or more input words is not in the dictionary. It is incumbent on the user to know what words are and are not in the dictionary before using the program.
 
 ## Recursion
   Both recursiveSearch(String, String) and backtrack(String) employ recursion. The recursive call of both occur when a for-each loop finds a word a list of candidates which is a valid next entry in the ladder causing both return the recursiveSearch(String, String) method. The base case is the first call of recursiveSearch(String, String) which returns the value passed up from subsequent calls of recursiveSearch(String, String) and backtrack(String).
