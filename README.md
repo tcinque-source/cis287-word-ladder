@@ -13,18 +13,23 @@ Lab Assignment 6: Recursive Word Ladder
 ## Class Descriptions
 
 ###WordLadderApp
+
   Main point of execution for the program. Contains some logic to facilitate the validation of user inputs. Handles most of the input and output.
 
 ###WordDictionary
+
   Loads the dictionary text file into an ArrayList. Contains methods to check if a word is in the dictionary and to get words of a particular length from the dictionary.
 
 ###WordLadderSolver
+
   Contains solver method used in WordLadderApp. Uses recursion in searching and backtracking during this searching.
 
 ###WordUtils
+
   Contains method that determines if two words differ by only one letter.
 
 ## Compilation Instructions
+
   javac *.java
 
 ## Execution Instructions
