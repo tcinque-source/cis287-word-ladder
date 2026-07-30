@@ -1,6 +1,6 @@
 # cis287-word-ladder
 
-##Student Information
+## Student Information
 Thomas Cinque
 CIS 287
 Lab Assignment 6: Recursive Word Ladder
